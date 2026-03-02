@@ -78,3 +78,10 @@ When updating to a new version of `af`:
 - **Renovate**: Configured for auto-merging minor/patch updates
 - **Sync config**: File sync disabled, label sync enabled with removal
 - **Branch**: `main`
+
+## Claude Code skills
+
+The `git-stage-hunk` SAI plugin stages partial file changes without a TTY. Use `/stage-hunk` when only some changes in a file belong in the current commit, multiple sessions modified the same file, or `git add -p` is unavailable.
+
+Install: `claude --plugin-dir ~/Projects/github.com/smykla-skalski/sai/git-stage-hunk/`
+Modes: `--list`, `--hunk H1,H2`, `--pattern REGEX`, `--file PATH`, `--range FILE:S-E`, `--verify`, `--dry-run`
