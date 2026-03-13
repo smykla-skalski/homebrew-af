@@ -1,18 +1,18 @@
-# smykla-skalski af
+# Deprecated tap
 
-## How do I install these formulae?
+`af` moved to the shared tap.
 
-`brew install smykla-skalski/af/<formula>`
+Install it with:
 
-Or `brew tap smykla-skalski/af` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "smykla-skalski/af"
-brew "<formula>"
+```bash
+brew install smykla-skalski/tap/af
 ```
 
-## Documentation
+Or:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap smykla-skalski/tap
+brew install af
+```
+
+The dedicated `smykla-skalski/af` tap is no longer maintained.
