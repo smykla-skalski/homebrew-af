@@ -28,7 +28,7 @@ jobs:
       uses: Homebrew/actions/setup-homebrew@696ef0de3166f256259af861e4b6dcbb7b99d84b # master
 
     - name: "Cache Homebrew Bundler RubyGems"
-      uses: actions/cache@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+      uses: actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7 # v5.0.4
       with:
         path: ${{ steps.set-up-homebrew.outputs.gems-path }}
         key: ${{ matrix.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
